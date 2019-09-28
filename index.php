@@ -98,6 +98,7 @@
 	<section id="section2" class="cd-section">
             <div class="container">
                 <h2 class="heading">Testimonials</h2>
+                <hr>
                 <div class="row">
                     <div id="testimonial-slider" class="owl-carousel">
                         <div class="testimonial">
@@ -193,7 +194,66 @@
 	</section><!-- cd-section -->
 
 	<section id="section3" class="cd-section">
-		<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+        <div class="container">
+           <h2 class="heading">Our Team</h2>
+            <hr>
+        <div class="row">
+            <div class="col-md-3 profile text-center">
+            <div class="img-box">
+                <img src="images/download.jpg">
+                <ul>
+                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
+                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
+                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
+                </ul>
+            </div>
+            <h4>Ramya Shehnaz</h4>
+            <h5>Founder / CEO</h5>
+            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
+            </div>
+            
+            <div class="col-md-3 profile text-center">
+            <div class="img-box">
+                <img src="images/download.jpg">
+                <ul>
+                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
+                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
+                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
+                </ul>
+            </div>
+            <h4>Ramya Shehnaz</h4>
+            <h5>Founder / CEO</h5>
+            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
+            </div>
+            
+            <div class="col-md-3 profile text-center">
+            <div class="img-box">
+                <img src="images/download.jpg">
+                <ul>
+                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
+                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
+                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
+                </ul>
+            </div>
+            <h4>Ramya Shehnaz</h4>
+            <h5>Founder / CEO</h5>
+            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
+            </div>
+            <div class="col-md-3 profile text-center">
+            <div class="img-box">
+                <img src="images/download.jpg">
+                <ul>
+                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
+                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
+                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
+                </ul>
+            </div>
+            <h4>Ramya Shehnaz</h4>
+            <h5>Founder / CEO</h5>
+            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
+            </div>
+            </div>
+        </div>
             <section id="section03" class="demo">
                 <a href="#section04"><span></span></a>
             </section>
@@ -246,7 +306,13 @@
                                 <a class="social-buttons" href="#"><i class="fab fa-linkedin-in"></i></a>
                             </li>
                             
-                        </ul>
+                        </ul><br><br>
+                        <div class="contact-left-wrap">
+                        <h5>Digital Something 3</h5>
+                        <h6><i class="fas fa-envelope"></i>&nbsp;danishsehgal@gmail.com</h6>
+                        <h6><i class="fas fa-phone-alt"></i>&nbsp;+911234567890</h6>
+                        <h6><i class="fas fa-map-marker-alt"></i>&nbsp;252, Secor 15 Industrial Area, Chandigarh</h6>
+                        </div>
                     </div>
                     </div>
                     </div> 
