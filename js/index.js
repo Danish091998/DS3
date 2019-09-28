@@ -60,6 +60,23 @@ jQuery(document).ready(function($){
 });
 
 
+$("#scroll").click(function(){
+    
+    var height = $(window).height();
+    var hc = $(window).scrollTop()+height
+    if(hc <= 4*height){
+        $('html, body').animate({
+            scrollTop: $(window).scrollTop()+height +'px'
+        }, 800)
+    }
+    else{
+        $('html, body').animate({
+            scrollTop: $(window).scrollTop()+height +'px'
+        }, 800)
+        $("#scroll").fadeOut();
+        $("#scrollTop").fadeIn();
+    }
+});
 
 
 

@@ -90,7 +90,7 @@
 
         </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, </p>
-		<a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
+            <div id="scroll" class="animated fadeIn delay-2s"><span></span>Scroll</div>
 	</section><!-- cd-section -->
 
 	<section id="section2" class="cd-section">
