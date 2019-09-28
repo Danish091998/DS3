@@ -169,9 +169,6 @@ Main components
      background: linear-gradient(-30deg, #1ec4e9 0%,#673ab7 50%,#262626 50%,#607d8b 100%);
 }
 
-.cd-section2 {
-background: linear-gradient(0deg, #1ec4e9 0%,#673ab7 50%,#262626 50%,#607d8b 100%);}
-
 .cd-section1 p{
     position: absolute;
     top: 69%;
@@ -627,4 +624,139 @@ background: linear-gradient(0deg, #1ec4e9 0%,#673ab7 50%,#262626 50%,#607d8b 100
   .touch .cd-nav-trigger, .touch #cd-vertical-nav {
     bottom: 40px;
   }
+}
+
+/*CONTACT PAGE*/
+
+.row{
+    margin: 0;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+}
+
+.outer-rt{
+    left: 50%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  /*whatever width you want*/
+}
+
+.vt-div-left{
+    background: #f2f2f2;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.vt-div-right{
+    background: #323232;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.form{
+    width: 100%;
+    height: auto;
+}
+
+.vt-div-left h3{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Ubuntu";
+    color: #323232;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.vt-div-right p{
+    font-size: 18px;
+    color: #f2f2f2  ;
+    font-weight: 600;
+    font-family: "Ubuntu";
+    margin: 0;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.vt-div-left .or-O{
+    position: absolute;
+    font-size: 40px;
+    color: #f2f2f2;
+    top: 50%;
+    left: 0;
+    right: 40px;
+    margin: 0 auto;
+    background: #323232;
+    width: 50px;
+    padding-left: 8px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.vt-div-right .or-R{
+    position: absolute;
+    font-size: 40px;
+    color: #323232;
+    top: 50%;
+    padding-left: 6px;
+    background:#f2f2f2;
+    width: 44px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.form .contact-form-input{
+    width: 100%;
+    margin: 7px 0px;
+    border: 1px solid #323232;
+    border-radius: 5px;
+    padding: 7px 15px;
+    color: #323232;
+    font-family: "Ubuntu";
+    background:#f2f2f2;
+}
+
+.form textarea{
+    height: 150px;
+}
+
+.form .submit-button{
+    padding: 12px 50px 10px;
+    margin: 10px 0px;
+    border: 1px solid #323232;
+    border-radius: 5px;
+    background: #f2f2f2;
+    color: #323232;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    font-family: "Ubuntu";
+    text-align: center;
+    transition: 0.3s ease all;
+}
+
+.form .submit-button:hover{
+    border: 1px solid #f2f2f2;
+    background: #323232;
+    color: #f2f2f2;
 }

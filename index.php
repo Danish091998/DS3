@@ -19,6 +19,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+        
+        <!--        Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 
         <!--        Stylesheet-->
         <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -74,7 +77,7 @@
 	</nav>
 	<a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 
-	<section id="section1" class="cd-section1">
+	<section id="section1" class="cd-section1 cd-section">
 		<div>
             <a class="logo" href="#">
                 <span></span>
@@ -91,8 +94,6 @@
 	</section><!-- cd-section -->
 
 	<section id="section2" class="cd-section">
-    
-        <div class="demo">
             <div class="container"> 
                 <div class="row">
                     <div id="testimonial-slider" class="owl-carousel">
@@ -183,7 +184,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         
 	</section><!-- cd-section -->
 
@@ -191,7 +191,7 @@
 		<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 	</section><!-- cd-section -->
 
-	<section id="section4" class="cd-section2">
+	<section id="section4" class="cd-section2 cd-section">
 		<div class="wrapper">
             <div class="card">
                 <h2>1</h2>
@@ -209,8 +209,35 @@
 		<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
 	</section><!-- cd-section -->
 
-	<section id="section6" class="cd-section">
-		<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+	<section id="section6" class="cd-section cd-section2">
+            <div class="row">
+                <div class="col-xs-6 vt-div-left">
+                    <div class="outer">
+                    <div class="middle">
+                    <div class="inner">
+                    <h3>Contact Us</h3>
+                    </div>
+                    </div>
+                    </div> 
+                    <span class="or-O">O</span>
+                </div>
+                <div class="col-xs-6 vt-div-right">
+                    <div class="outer outer-rt">
+                    <div class="middle">
+                    <div class="inner">
+                        <form class="form">
+                            <p>Have any query, feel free to reach out to us.</p><br>
+                            <input class="contact-form-input" type="text" placeholder="Name"><br>
+                            <input class="contact-form-input" type="email" placeholder="E-mail"><br>
+                            <textarea class="contact-form-input" placeholder="Message"></textarea><br>
+                            <center><input class="submit-button" type="submit"></center>
+                        </form>
+                    </div>
+                    </div>
+                    </div>
+                    <span class="or-R">R</span>
+                </div>
+        </div>
 	</section><!-- cd-section -->
     </body>
         <!--        Bootstrap JavaScript-->
