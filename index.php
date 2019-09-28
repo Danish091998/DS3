@@ -90,11 +90,14 @@
 
         </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, </p>
-            <div id="scroll" class="animated fadeIn delay-2s"><span></span>Scroll</div>
+            <section id="section01" class="demo">
+                <a href="#section02"><span></span></a>
+            </section>
 	</section><!-- cd-section -->
 
 	<section id="section2" class="cd-section">
-            <div class="container"> 
+            <div class="container">
+                <h2 class="heading">Testimonials</h2>
                 <div class="row">
                     <div id="testimonial-slider" class="owl-carousel">
                         <div class="testimonial">
@@ -184,11 +187,16 @@
                     </div>
                 </div>
             </div>
-        
+            <section id="section02" class="demo">
+                <a href="#section03"><span></span></a>
+            </section>
 	</section><!-- cd-section -->
 
 	<section id="section3" class="cd-section">
 		<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+            <section id="section03" class="demo">
+                <a href="#section04"><span></span></a>
+            </section>
 	</section><!-- cd-section -->
 
 	<section id="section4" class="cd-section2 cd-section">
@@ -203,10 +211,16 @@
                 <h2>3</h2>
             </div>
         </div>
+            <section id="section04" class="demo">
+                <a href="#section05"><span></span></a>
+            </section>
 	</section><!-- cd-section -->
 
 	<section id="section5" class="cd-section">
 		<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+            <section id="section05" class="demo">
+                <a href="#"><span></span></a>
+            </section>
 	</section><!-- cd-section -->
 
 	<section id="section6" class="cd-section cd-section2">
@@ -215,7 +229,24 @@
                     <div class="outer">
                     <div class="middle">
                     <div class="inner">
-                    <h3>Contact Us</h3>
+                        <h3>Contact Us</h3>
+                        <ul class="ul1">
+                            <li class>
+                                <a class="social-buttons" href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a class="social-buttons" href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                        <ul class="ul2">
+                            <li>
+                                <a class="social-buttons" href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a class="social-buttons" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            
+                        </ul>
                     </div>
                     </div>
                     </div> 
