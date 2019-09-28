@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         
         <meta charset="utf-8">
@@ -87,7 +87,9 @@
 
         </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, </p>
-		<a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
+		<!-- <a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a> -->
+        <div id="scroll"><span></span>Scroll</div>
+        
 	</section><!-- cd-section -->
 
 	<section id="section2" class="cd-section">
