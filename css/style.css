@@ -647,6 +647,33 @@ Main components
     transition: 0.3s ease all;
 }
 
+/*ABOUT*/
+.col-margin{
+    margin: 0;
+    padding: 0;
+}
+
+.about-head{
+    color: white;
+    margin: 0;
+    font-family: "Ubuntu";
+    font-size: 45px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+#about-text{
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    line-height: normal;
+}
+
+.vt-line{
+    width: 1px;
+    height: 100%;
+    background: white;
+}
+
 /*TESTIMONIALS*/
 
 .heading{
@@ -753,6 +780,15 @@ Main components
 
 .row{
     margin: 0;
+}
+
+.outer-about {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .outer {

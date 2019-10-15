@@ -40,7 +40,7 @@
 			<li>
 				<a href="#section1" data-number="1">
 					<span class="cd-dot"></span>
-					<span class="cd-label">Intro</span>
+					<span class="cd-label">Home</span>
 				</a>
 			</li>
 			<li>
@@ -52,19 +52,13 @@
 			<li>
 				<a href="#section3" data-number="3">
 					<span class="cd-dot"></span>
-					<span class="cd-label">Features</span>
+					<span class="cd-label">Team</span>
 				</a>
 			</li>
 			<li>
 				<a href="#section4" data-number="4">
 					<span class="cd-dot"></span>
-					<span class="cd-label">Portfolio</span>
-				</a>
-			</li>
-			<li>
-				<a href="#section5" data-number="5">
-					<span class="cd-dot"></span>
-					<span class="cd-label">Pricing</span>
+					<span class="cd-label">Testimonials</span>
 				</a>
 			</li>
 			<li>
@@ -96,6 +90,105 @@
 	</section><!-- cd-section -->
 
 	<section id="section2" class="cd-section">
+        <div class="container">
+            <h2 class="heading">About Us</h2>
+            <hr>
+            <div class="outer-about">
+            <div class="middle">
+            <div class="inner">
+            <div class="row">
+                <div class="col-md-2 col-margin">
+                    <h5 class="about-head">Tag<br> line<br> goes<br> here </h5>
+                </div>
+                <div class="col-md-10 col-margin">  
+                    <div class="row">
+                        <div class="col-md-1 col-margin">   
+                            <div class="vt-line"></div>
+                            
+                        </div> 
+                        <div class="col-md-11 col-margin">
+                            <p id="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>    
+        
+            <section id="section02" class="demo">
+                <a href="#section03"><span></span></a>
+            </section>
+	</section><!-- cd-section -->
+
+	<section id="section3" class="cd-section">
+        <div class="container">
+           <h2 class="heading">Our Team</h2>
+            <hr>
+        <div class="row">
+            <div class="col-md-3 profile text-center">
+            <div class="img-box">
+                <img src="images/download.jpg">
+                <ul>
+                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
+                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
+                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
+                </ul>
+            </div>
+            <h4>Ramya Shehnaz</h4>
+            <h5>Founder / CEO</h5>
+            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
+            </div>
+            
+            <div class="col-md-3 profile text-center">
+            <div class="img-box">
+                <img src="images/download.jpg">
+                <ul>
+                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
+                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
+                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
+                </ul>
+            </div>
+            <h4>Ramya Shehnaz</h4>
+            <h5>Founder / CEO</h5>
+            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
+            </div>
+            
+            <div class="col-md-3 profile text-center">
+            <div class="img-box">
+                <img src="images/download.jpg">
+                <ul>
+                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
+                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
+                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
+                </ul>
+            </div>
+            <h4>Ramya Shehnaz</h4>
+            <h5>Founder / CEO</h5>
+            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
+            </div>
+            <div class="col-md-3 profile text-center">
+            <div class="img-box">
+                <img src="images/download.jpg">
+                <ul>
+                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
+                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
+                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
+                </ul>
+            </div>
+            <h4>Ramya Shehnaz</h4>
+            <h5>Founder / CEO</h5>
+            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
+            </div>
+            </div>
+        </div>
+            <section id="section03" class="demo">
+                <a href="#section04"><span></span></a>
+            </section>
+	</section><!-- cd-section -->
+
+	<section id="section4" class="cd-section2 cd-section">
             <div class="container">
                 <h2 class="heading">Testimonials</h2>
                 <hr>
@@ -188,98 +281,9 @@
                     </div>
                 </div>
             </div>
-            <section id="section02" class="demo">
-                <a href="#section03"><span></span></a>
-            </section>
-	</section><!-- cd-section -->
-
-	<section id="section3" class="cd-section">
-        <div class="container">
-           <h2 class="heading">Our Team</h2>
-            <hr>
-        <div class="row">
-            <div class="col-md-3 profile text-center">
-            <div class="img-box">
-                <img src="images/download.jpg">
-                <ul>
-                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
-                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
-                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
-                </ul>
-            </div>
-            <h4>Ramya Shehnaz</h4>
-            <h5>Founder / CEO</h5>
-            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
-            </div>
-            
-            <div class="col-md-3 profile text-center">
-            <div class="img-box">
-                <img src="images/download.jpg">
-                <ul>
-                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
-                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
-                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
-                </ul>
-            </div>
-            <h4>Ramya Shehnaz</h4>
-            <h5>Founder / CEO</h5>
-            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
-            </div>
-            
-            <div class="col-md-3 profile text-center">
-            <div class="img-box">
-                <img src="images/download.jpg">
-                <ul>
-                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
-                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
-                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
-                </ul>
-            </div>
-            <h4>Ramya Shehnaz</h4>
-            <h5>Founder / CEO</h5>
-            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
-            </div>
-            <div class="col-md-3 profile text-center">
-            <div class="img-box">
-                <img src="images/download.jpg">
-                <ul>
-                    <a href="#"><li class="fb"><i class="fab fa-facebook-f "></i></li></a>
-                    <a href="#"><li class="tw"><i class="fab fa-twitter "></i></li></a>
-                    <a href="#"><li class="im"><i class="fab fa-instagram "></i></li></a>
-                </ul>
-            </div>
-            <h4>Ramya Shehnaz</h4>
-            <h5>Founder / CEO</h5>
-            <p>perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur</p>
-            </div>
-            </div>
-        </div>
-            <section id="section03" class="demo">
-                <a href="#section04"><span></span></a>
-            </section>
-	</section><!-- cd-section -->
-
-	<section id="section4" class="cd-section2 cd-section">
-		<div class="wrapper">
-            <div class="card">
-                <h2>1</h2>
-            </div>
-            <div class="card">
-                <h2>2</h2>
-            </div>
-            <div class="card">
-                <h2>3</h2>
-            </div>
-        </div>
+		
             <section id="section04" class="demo">
                 <a href="#section05"><span></span></a>
-            </section>
-	</section><!-- cd-section -->
-
-	<section id="section5" class="cd-section">
-		<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
-            <section id="section05" class="demo">
-                <a href="#"><span></span></a>
             </section>
 	</section><!-- cd-section -->
 
