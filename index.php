@@ -190,7 +190,7 @@
 
 	<section id="section4" class="cd-section2 cd-section">
             <div class="container">
-                <h2 class="heading">Testimonials</h2>
+                <h2 class="heading margin-top">Testimonials</h2>
                 <hr>
                 <div class="row">
                     <div id="testimonial-slider" class="owl-carousel">
@@ -337,6 +337,7 @@
                     </div>
                     </div>
                     <span class="or-R">R</span>
+                    <button class="toggle-up">^</button>
                 </div>
         </div>
 	</section><!-- cd-section -->

@@ -87,3 +87,9 @@ $("#scroll").click(function(){
     }
 });
 
+$(".toggle-up").click(function(){
+    $('html,body').animate({
+        scrollTop:0
+    },400)
+});
+
