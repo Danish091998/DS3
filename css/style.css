@@ -29,6 +29,8 @@ body {
 
 body, html {
   height: 100%;
+    overflow: hidden;
+    min-height: 100%;
 }
 
 ul{
@@ -666,12 +668,14 @@ Main components
     font-size: 17px;
     letter-spacing: 0.03em;
     line-height: normal;
+    color: #ccc;
+    margin: 0;
 }
 
 .vt-line{
-    width: 1px;
+    width: 2px;
     height: 100%;
-    background: white;
+    background: #ccc;
 }
 
 /*TESTIMONIALS*/
