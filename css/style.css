@@ -25,12 +25,12 @@ body {
   font-family: "Ubuntu", sans-serif;
   color: #3e3947;
   background-color: white;
+  overflow: hidden;
 }
 
 body, html {
   height: 100%;
-    overflow: hidden;
-    min-height: 100%;
+  min-height: 100%;
 }
 
 ul{
@@ -668,14 +668,12 @@ Main components
     font-size: 17px;
     letter-spacing: 0.03em;
     line-height: normal;
-    color: #ccc;
-    margin: 0;
 }
 
 .vt-line{
-    width: 2px;
+    width: 1px;
     height: 100%;
-    background: #ccc;
+    background: white;
 }
 
 /*TESTIMONIALS*/
