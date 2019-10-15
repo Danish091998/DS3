@@ -85,7 +85,7 @@
         </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, </p>
             <section id="section01" class="demo">
-                <a href="#section02"><span></span></a>
+                <a href="#scroll"><span></span></a>
             </section>
 	</section><!-- cd-section -->
 

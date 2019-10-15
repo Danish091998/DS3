@@ -69,4 +69,21 @@ $("#section01, #section02, #section03, #section04, #section05").click(function()
 });
 
 
+$("#scroll").click(function(){
+    
+    var height = $(window).height();
+    var hc = $(window).scrollTop()+height
+    if(hc <= 2*height){
+        $('html, body').animate({
+            scrollTop: $(window).scrollTop()+height +'px'
+        }, 800)
+    }
+    else{
+        $('html, body').animate({
+            scrollTop: $(window).scrollTop()+height +'px'
+        }, 800)
+        $("#scroll").fadeOut();
+        $("#scrollTop").fadeIn();
+    }
+});
 
