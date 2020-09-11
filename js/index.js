@@ -1,15 +1,4 @@
 jQuery(document).ready(function($){
-    
-    $("#testimonial-slider").owlCarousel({
-        items:3,
-        itemsDesktop:[1000,3],
-        itemsDesktopSmall:[979,2],
-        itemsTablet:[768,2],
-        itemsMobile:[650,1],
-        pagination:true,
-        autoPlay:true
-    })
-    
 	var contentSections = $('.cd-section'),
 		navigationItems = $('#cd-vertical-nav a');
 
@@ -56,7 +45,51 @@ jQuery(document).ready(function($){
         	{'scrollTop':target.offset().top},
         	600
         );
-	}
+    }
+    
+    // Swiper
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 0,
+            modifier: 1,
+            slideShadows: true,
+        },
+        loop: true,
+    });
+
+    var swiperMain = new Swiper('.swiper-main-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 0,
+        mousewheel: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+
+    var swiperServies = new Swiper('.services-swiper-container', {
+        effect: 'coverflow',
+        initialSlide: 1,
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        spaceBetween: 30,
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 0,
+            modifier: 1,
+            slideShadows: true,
+        },
+        loop: false,
+    });
 });
 
 $("#section01, #section02, #section03, #section04, #section05").click(function(){
