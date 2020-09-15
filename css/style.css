@@ -160,25 +160,13 @@ img {
   flex-wrap: wrap;
 }
 
-.services-swiper-container{
-  width: 100%;
-  height: 100%;
-}
-
 .services-wrapper .swiper-slide {
   background: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+  background-position: center;
+  background-size: cover;
+  min-height: 350px;
+  background: #fff;
+  margin: 0 20px;
   width: 350px;
 }
 
@@ -787,6 +775,9 @@ img {
 	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
 }
 
+.social-icons-mobile{
+  display: none;
+}
 
 @media(max-width: 991px){
   .testimonials{
@@ -798,6 +789,20 @@ img {
   .contact-head-wrap{
     max-width: 100%;
   }
+  .social-icons-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-icons-mobile li{
+      display: inline-block;
+      margin-right: 15px;
+  }
+  .social-icons-mobile li a img{
+      transform: scale(0.5);
+      filter: invert(1);
+  }
+
 }
 
 @media(max-width: 767px){

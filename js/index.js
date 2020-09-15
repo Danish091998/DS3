@@ -1,6 +1,6 @@
 $(document).ready(function($){
     // Swiper
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.testimonials-swiper-container', {
         effect: 'coverflow',
         grabCursor: true,
         centeredSlides: true,
@@ -32,7 +32,6 @@ $(document).ready(function($){
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: 'auto',
-        spaceBetween: 30,
         coverflowEffect: {
             rotate: 0,
             stretch: 0,
